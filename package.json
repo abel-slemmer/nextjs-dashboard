@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint --no-cache"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
@@ -15,6 +16,7 @@
     "next": "15.0.0-rc.0",
     "next-auth": "5.0.0-beta.19",
     "postcss": "8.4.38",
+    "prettier-plugin-tailwindcss": "^0.6.5",
     "react": "19.0.0-rc-f994737d14-20240522",
     "react-dom": "19.0.0-rc-f994737d14-20240522",
     "tailwindcss": "3.4.4",
@@ -26,7 +28,10 @@
     "@types/bcrypt": "^5.0.2",
     "@types/node": "20.14.8",
     "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0"
+    "@types/react-dom": "18.3.0",
+    "bun-types": "^1.1.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
   },
   "engines": {
     "node": ">=20.12.0"
